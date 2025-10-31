@@ -1,2 +1,2 @@
-# fejitter.github.io
-Meu projeto de site para registrar o portfólio.
+# Felipe's Resume
+My website project to showcase my portfolio.
