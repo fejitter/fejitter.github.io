@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Gomes Vieira Pais</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="dark">
+  <header>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-6 col-md-auto">
+                <div class="brand-wrapper">
+                    <h1 class="brand">FP</h1>
+                    <span class="underline"></span>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-auto ms-md-auto">
+                <div class="d-flex align-items-center justify-content-end gap-2">
+                    <nav class="d-none d-md-flex align-items-center gap-3 me-3">
+                        <a href="#hero" data-i18n="nav-home">Home</a>
+                        <a href="#experience" data-i18n="nav-experience">Experience</a>
+                        <a href="#projects" data-i18n="nav-projects">Projects</a> 
+                        <a href="#contact" data-i18n="nav-contact">Contacts</a>
+                    </nav>
+
+                    <button id="themeToggle" class="btn btn-sm btn-outline-light" title="Alternar tema">
+                        <i class="bi bi-moon-stars-fill"></i>
+                    </button>
+
+                    <button id="langToggle" class="btn btn-sm btn-outline-light" title="Change language">
+                        <i class="bi bi-translate"></i>
+                        <span id="langText" class="d-none d-sm-inline ms-1">EN</span>
+                    </button>
+
+                    <button class="navbar-toggler d-md-none" type="button" id="navbarToggle" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <nav class="mobile-nav">
+                        <a href="#hero" class="mobile-nav-link" data-i18n="nav-home">Home</a>
+                        <a href="#experience" class="mobile-nav-link" data-i18n="nav-experience">Experience</a>
+                        <a href="#projects" class="mobile-nav-link" data-i18n="nav-projects">Projects</a>
+                        <a href="#contact" class="mobile-nav-link" data-i18n="nav-contact">Contacts</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="hero animate" id="hero">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 data-i18n="hero-title">Olá!</h2>
+                <p data-i18n="hero-description">Graduando em Ciência da Computação pela Universidade Católica de Santos, 
+                  onde estou no 4º semestre, e tenho muita paixão em tecnologia. Apaixonado por criar experiências digitais modernas
+                  intuitivas e de alto impacto.</p>
+                <a href="#experience" class="custom-btn animate" data-i18n="hero-cta">Ver Experiência</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="experience animate" id="experience">
+  <div class="container">
+    <h2 class="text-center mb-5" data-i18n="experience-title">Experiência</h2>
+    
+    <div class="experience-item mb-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="experience-gallery">
+            <div class="main-image-wrapper">
+              <img src="BXsec-14.jpg" alt="Foto selecionada" class="main-image" data-exp="exp1">
+            </div>
+            <div class="thumbnail-grid">
+              <img src="BXsec-14.jpg" width="150" height="400" alt="Crachás bxsec" class="thumbnail active" data-exp="exp1" data-img="BXsec-14.jpg">
+              <img src="BXsec-4.jpg" alt="Foto de Felipe e colegas de equipe na recepção do evento" class="thumbnail" data-exp="exp1" data-img="BXsec-4.jpg">
+              <img src="IMG_4292.jpg" alt="Foto de Felipe ajudando com a fila para a entrada no evento" class="thumbnail" data-exp="exp1" data-img="IMG_4292.jpg">
+              <img src="BXsec-16.jpg" width="600" height="400" alt="Foto de Felipe de costas, onde é possível ler 'BXSecTEAM' na camisa" class="thumbnail" data-exp="exp1" data-img="BXsec-16.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="experience-content">
+            <h3 class="experience-title" data-i18n="exp1-title">BxSec</h3>
+            <span class="experience-period" data-i18n="exp1-period">Agosto 2025</span>
+            <p class="experience-description" data-i18n="exp1-desc">
+              Trabalhei como staff voluntária do evento BxSec, o maior evento de cibersegurança da Baixada Santista.
+              <br><br>
+              Principais competências: Trabalho em equipe, Comunicação, Adaptabilidade, Engajamento de pessoas.
+            </p>
+            <div class="experience-tags">
+             <span class="tag" data-i18n="exp1-skill1">Trabalho em equipe</span>
+             <span class="tag" data-i18n="exp1-skill2">Comunicação</span>
+             <span class="tag" data-i18n="exp1-skill3">Adaptabilidade</span>
+             <span class="tag" data-i18n="exp1-skill4">Engajamento de pessoas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects animate" id="projects">
+  <div class="container">
+    <h2 class="text-center mb-5" data-i18n="projects-title">Projetos</h2>
+    <div class="row justify-content-center g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card animate">
+          <img id="projeto-img" src="black-projeto.jpg" class="card-img-top" alt="Front-end">
+          <div class="card-body">
+            <h3 class="card-title" data-i18n="project-portfolio-title">Portfólio</h3>
+            <p class="card-text" data-i18n="project-portfolio-desc">É o site que você está vendo, meu projeto atual. Ele foi feito usando HTML, CSS e JavaScript, com foco em design moderno e animações suaves de scroll.<br><br>Está sujeito a constantes ajustes e melhorias.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="image-modal" id="imageModal">
+  <span class="modal-close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div class="modal-caption" id="modalCaption"></div>
+</div>
+
+<section class="contact animate" id="contact">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <h2 class="mb-4" data-i18n="contact-title">Entre em Contato</h2>
+        <p class="mb-4" data-i18n="contact-description">Se você gostou do meu trabalho, sinta-se à vontade para me chamar.</p>
+        <a href="mailto:felipegvpais1@gmail.com" class="btn custom-btn" data-i18n="contact-cta">Me mande um e-mail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p class="mb-0">
+      <span data-i18n="footer-text-prefix">© 2025 - Feito por </span>
+      <a href="https://github.com/fejitter" target="_blank" rel="noopener noreferrer" class="footer-link">@fejitter</a>
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
