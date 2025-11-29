@@ -35,7 +35,7 @@ const translations = {
         "nav-experience": "Experience",
         "nav-contact": "Contact",
 
-        "hero-title": "Hi!",
+        "hero-title": "Hello!",
         "hero-description": "I'm a Computer Science student at Universidade Católica de Santos, currently in my 4th semester, and I'm really passionate about technology. I love creating modern, intuitive, and high-impact digital experiences.",
         "hero-cta": "View Experience",
 
