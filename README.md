@@ -100,4 +100,5 @@ Meu portfólio pessoal desenvolvido com:
 
 ---
 
+> Sujeito a constantes atualizações.
 > Feedbacks e sugestões sempre bem-vindos. Obrigado por ler até aqui!
