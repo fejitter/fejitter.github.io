@@ -100,5 +100,5 @@ Meu portfólio pessoal desenvolvido com:
 
 ---
 
-> Sujeito a constantes atualizações.
+> Sujeito a constantes atualizações. <br>
 > Feedbacks e sugestões sempre bem-vindos. Obrigado por ler até aqui!
